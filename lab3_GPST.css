@@ -44,6 +44,44 @@ main {
 	margin-left: 190px;
 	padding-left: 30px;}
 
+
+table {
+	border:solid 2px #006600;
+	border-collapse:collapse;
+	border-color: #006600;
+}
+
+th {
+	padding:1em;
+	border:solid 1px #006600;
+}
+
+td {
+	padding:1em;
+	border:solid 1px #006600;}
+
+tr:nth-of-type(odd) {
+	background-color:#ECF9EC ;
+
+}
+
+button{
+	margin-left:135px ; }
+
+	label {
+		float:left;
+		display:block;
+		text-align:right;
+		width:125px;
+		padding-right:2em;
+	}
+	
+input{
+	display:block;
+	margin-bottom:20px;
+}
+
+
 footer {
 		padding:15px;
 		text-align:center;
@@ -60,6 +98,10 @@ h1 {margin-top:0px;
 	font-family: Georgia, "Times New Roman", serif;}
 
 h2 {color:#00664d;
+	text-shadow:1px 1px #CCCCCC;
+	font-family: Georgia, "Times New Roman", serif;}
+
+h3{color:#006646;
 	text-shadow:1px 1px #CCCCCC;
 	font-family: Georgia, "Times New Roman", serif;}
 	
@@ -95,7 +137,7 @@ dt {color:#00664d;}
 		   background-size: 100% 100%;
 		   margin-left: 190px;}
 
-#trainingImage { background-image: url(assets/baybella.png);
+#trainingImage { background-image: url(assets/BayBella.png);
            height: 300px;
 		   background-repeat: no-repeat;
 		   background-size: 100% 100%;
